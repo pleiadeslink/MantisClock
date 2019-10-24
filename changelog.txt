@@ -1,2 +1,5 @@
+0.2
+- Finding my way out through Mantis' codebase
+
 0.1
 - Basic template
