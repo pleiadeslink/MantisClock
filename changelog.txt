@@ -1,3 +1,6 @@
+0.3
+- I managed to filter all tickets
+
 0.2
 - Finding my way out through Mantis' codebase
 
