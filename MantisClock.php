@@ -7,8 +7,8 @@ class MantisClockPlugin extends MantisPlugin {
     function register() {
         $this->name = "MantisClock";
         $this->description = "This plugin aims to automatically reassign tickets once certain time has been reached since the ticket was created";
-        $this->page = "https://github.com/FractalMonkey/MantisClock";
-        $this->version = "0.1";
+        $this->page = "https://github.com/fractalmonkey/MantisClock";
+        $this->version = "0.3";
         $this->requires = array(
             "MantisCore" => "2.0.0",
         );
@@ -26,9 +26,7 @@ class MantisClockPlugin extends MantisPlugin {
 
     function hooks() {
         return array(
-            "EVENT_LAYOUT_PAGE_FOOTER" => "updateTickets",
-            "EVENT_MANTISCLOCK_RUN" => "run",
-            "EVENT_MANTISCLOCK_UPDATE" => "update_tickets"
+            "EVENT_MANTISCLOCK_RUN" => "run"
         );
     }
 
@@ -40,4 +38,3 @@ class MantisClockPlugin extends MantisPlugin {
 
 
 }
-?>

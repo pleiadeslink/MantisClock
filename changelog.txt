@@ -1,3 +1,7 @@
+0.4
+- Filtering is now clear
+- Result log is displayed following MantisBT style
+
 0.3
 - I managed to filter all tickets
 
